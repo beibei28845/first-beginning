@@ -26,7 +26,7 @@
         .content {
             text-align: center;
             display: inline-flex;
-            color: darkred;
+            color: darkred; background: aqua ;
         }
 
         .title {
