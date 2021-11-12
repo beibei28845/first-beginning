@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Weibo App</title>
+  <title>@yield('title', 'Weibo App') - Laravel 入门教程</title>
+  <link rel="stylesheet" href="/css/app.css">
 </head>
-<body style="" bgcolor="#f0f8ff ">
-@yield('content')
-{{--占位符，用@section（‘content’）来展示--}}
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="/">first.test</a>
+    <ul class="navbar-nav justify-content-end">
+      <li class="nav-item"><a class="nav-link" href="/help">帮助</a></li>
+      <li class="nav-item" ><a class="nav-link" href="#">登录</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  @yield('content')
+  {{--占位符，用@section（‘content’）来展示--}}
+</div>
 </body>
 </html>
+
+

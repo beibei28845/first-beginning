@@ -121,6 +121,7 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="20fiWt0V9GSOi165pUHvULg7Gha" />
@@ -134,6 +135,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
@@ -155,6 +157,7 @@
       <workItem from="1636442083370" duration="728000" />
       <workItem from="1636442815497" duration="2577000" />
       <workItem from="1636609705878" duration="4731000" />
+      <workItem from="1636699516080" duration="2703000" />
     </task>
     <servers />
   </component>
@@ -178,5 +181,9 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="56" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1636442778830" />
+    <state x="-6" y="0" width="840" height="726" key="search.everywhere.popup" timestamp="1636631570598">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="-6" y="0" width="840" height="726" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1636631570598" />
   </component>
 </project>
