@@ -8,13 +8,11 @@
 @include('layouts._header')
 
 
-
-
 <div class="container">
   <div class="offset-md-1 col-md-10">
-  @yield('content')
-  {{--占位符，用@section（‘content’）来展示--}}
-  @include('layouts._footer')
+    @yield('content')
+    {{--占位符，用@section（‘content’）来展示--}}
+    @include('layouts._footer')
   </div>
 
 </div>
