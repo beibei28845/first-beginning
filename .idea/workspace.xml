@@ -195,6 +195,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="529" y="159" key="#Notifications" timestamp="1636444206327">
@@ -213,9 +214,9 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="56" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1636442778830" />
-    <state x="-6" y="0" width="840" height="726" key="search.everywhere.popup" timestamp="1637860910495">
+    <state x="-6" y="0" width="840" height="726" key="search.everywhere.popup" timestamp="1637902994575">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="-6" y="0" width="840" height="726" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1637860910495" />
+    <state x="-6" y="0" width="840" height="726" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1637902994575" />
   </component>
 </project>
