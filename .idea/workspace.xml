@@ -140,6 +140,8 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/laravel-lang" />
+      <path value="$PROJECT_DIR$/vendor/laravel-lang/lang" />
     </include_path>
   </component>
   <component name="ProjectId" id="20fiWt0V9GSOi165pUHvULg7Gha" />
@@ -182,6 +184,11 @@
       <workItem from="1637819745801" duration="7511000" />
 =======
       <workItem from="1637819745801" duration="7943000" />
+<<<<<<< HEAD
+>>>>>>> sign-up
+=======
+      <workItem from="1637999334939" duration="2626000" />
+      <workItem from="1638084780280" duration="3232000" />
 >>>>>>> sign-up
     </task>
     <servers />
@@ -199,6 +206,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="529" y="159" key="#Notifications" timestamp="1636444206327">
@@ -217,9 +225,9 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="56" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1636442778830" />
-    <state x="-6" y="0" width="840" height="726" key="search.everywhere.popup" timestamp="1637860910495">
+    <state x="-6" y="0" width="840" height="726" key="search.everywhere.popup" timestamp="1637902994575">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="-6" y="0" width="840" height="726" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1637860910495" />
+    <state x="-6" y="0" width="840" height="726" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1637902994575" />
   </component>
 </project>
