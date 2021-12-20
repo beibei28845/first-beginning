@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use mysql_xdevapi\Session;
 
 class UsersController extends Controller
@@ -32,7 +33,8 @@ class UsersController extends Controller
             'password' => bcrypt($request->password),
         ]);
 
-        session()->flash('success', 'hello,world');
+        Auth::login($user);
+        session()->flash('success', '欢迎回来');
         return redirect()->route('users.show', [$user]);
     }
 }
