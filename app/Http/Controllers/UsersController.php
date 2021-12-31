@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
 use Illuminate\Http\Request;
+use App\Models\User;
 use Illuminate\Support\Facades\Auth;
-use mysql_xdevapi\Session;
 
 class UsersController extends Controller
 {
@@ -13,7 +12,7 @@ class UsersController extends Controller
     public function __construct()
     {
         $this->middleware('auth', [
-            'except' => ['show', 'create', 'store','index']
+            'except' => ['show', 'create', 'store', 'index']
         ]);
         $this->middleware('guest', [
             'only' => ['creat']
@@ -33,7 +32,7 @@ class UsersController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'name' => 'required|unique:users|max:50',
+            'name' => 'required|max:50',
             'email' => 'required|email|unique:users|max:255',
             'password' => 'required|confirmed|min:6'
         ]);
@@ -45,10 +44,9 @@ class UsersController extends Controller
         ]);
 
         Auth::login($user);
-        session()->flash('success', '欢迎回来');
+        session()->flash('success', '欢迎，您将在这里开启一段新的旅程~');
         return redirect()->route('users.show', [$user]);
     }
-
     public function edit(User $user)
     {
         $this->authorize('update', $user);
@@ -77,14 +75,14 @@ class UsersController extends Controller
     public function index()
     {
         $users = User::paginate(10);
-        return view('users.index',compact('users'));
+        return view('users.index', compact('users'));
     }
 
-    public function delete(User $user)
+    public function destroy(User $user)
     {
-        $this->authorize('destroy',$user)
+        $this->authorize('destroy', $user);
         $user->delete();
-        session()->flash('success','成功删除用户');
+        session()->flash('success', '成功删除用户！');
         return back();
     }
 }
